@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Static assets
+
+This project serves images from Next.js `public` directory.
+
+- Place files under `public/assets/`
+- Reference them in code as `/assets/<filename>` (for example: `/assets/abc.png`)
+
+Note: Previously images were fetched from `http://localhost:3845/assets/...`. That host is not available on Vercel, so the app now expects local static files. Copy the required files into `public/assets/` before deploying.

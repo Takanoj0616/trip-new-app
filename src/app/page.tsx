@@ -1,84 +1,84 @@
 import Image from "next/image";
 
 // Image assets from Figma - Header Section
-const img633B9211F3A23A857F2A4434HomeHeroBlurP1600Webp = "http://localhost:3845/assets/5085b083680cb472952037b950dd905a860e0894.png";
-const img633F0Ecf76651E0E17D7F97FHomeHeroMockupP1600Webp = "http://localhost:3845/assets/9a0a08636ed97eb5ec27078b4d98296ee71d4ed3.png";
-const imgVideo96B207D627De3A9D89D3912Fec954671Video = "http://localhost:3845/assets/1798cac9a4e9caaf484c5b7bcc559b492f2be8a2.png";
-const img633B44B70Bd797329E54Fa62FrameBgP800Png = "http://localhost:3845/assets/a26cce7d1155faacc0e98daa7af6dd9204a90564.png";
-const imgFrame = "http://localhost:3845/assets/c4f690ea31bd42c9b6c377642ab2dabdd1c23bc1.svg";
-const img633B16170A5347C77Eee4653WelcomeSvg = "http://localhost:3845/assets/f30df4f99941eafec4d495d9a0499cfb2f0c6a40.svg";
+const img633B9211F3A23A857F2A4434HomeHeroBlurP1600Webp = "/assets/5085b083680cb472952037b950dd905a860e0894.png";
+const img633F0Ecf76651E0E17D7F97FHomeHeroMockupP1600Webp = "/assets/9a0a08636ed97eb5ec27078b4d98296ee71d4ed3.png";
+const imgVideo96B207D627De3A9D89D3912Fec954671Video = "/assets/1798cac9a4e9caaf484c5b7bcc559b492f2be8a2.png";
+const img633B44B70Bd797329E54Fa62FrameBgP800Png = "/assets/a26cce7d1155faacc0e98daa7af6dd9204a90564.png";
+const imgFrame = "/assets/c4f690ea31bd42c9b6c377642ab2dabdd1c23bc1.svg";
+const img633B16170A5347C77Eee4653WelcomeSvg = "/assets/f30df4f99941eafec4d495d9a0499cfb2f0c6a40.svg";
 
 // Image assets from Figma - Experience Section
-const imgInteractiveOverlays = "http://localhost:3845/assets/fe07aab853fa3e439a789e527dbd50601d1228f8.png";
-const imgInteractivePolls = "http://localhost:3845/assets/04f7043b15b6e1aecfd7c7b8261277090632e920.png";
-const img633B16170A5347D8D6Ee468CHomeExperienceVideoImageJpg = "http://localhost:3845/assets/7354577476170e09a14529efd0dbdd4c33144226.png";
-const imgQABackground = "http://localhost:3845/assets/9368e161f7ccef0b8630da4ed437ddeb13cde5da.png";
-const img633B16170A5347D261Ee467BHomeExperienceQaCardP800Png = "http://localhost:3845/assets/395f406f620768136203f60a62cbda607afdcb51.png";
-const imgChatBackground = "http://localhost:3845/assets/347ebcbc0769d19e13ff2e7e68a1dcc26a17378f.png";
-const imgChatMessages = "http://localhost:3845/assets/f57cbb4a1a809fb2f1f6d8dbbeb8bd24d9813e93.png";
-const img633B16170A5347E73Cee467EHomeExperienceVideoTextSvg = "http://localhost:3845/assets/7581bbe3dc16752c06b5aa52e93bc4296d4a9847.svg";
-const imgFrameArrow = "http://localhost:3845/assets/2d65e05f4251af4897de5ec241e0ec1e67f4ca53.svg";
+const imgInteractiveOverlays = "/assets/fe07aab853fa3e439a789e527dbd50601d1228f8.png";
+const imgInteractivePolls = "/assets/04f7043b15b6e1aecfd7c7b8261277090632e920.png";
+const img633B16170A5347D8D6Ee468CHomeExperienceVideoImageJpg = "/assets/7354577476170e09a14529efd0dbdd4c33144226.png";
+const imgQABackground = "/assets/9368e161f7ccef0b8630da4ed437ddeb13cde5da.png";
+const img633B16170A5347D261Ee467BHomeExperienceQaCardP800Png = "/assets/395f406f620768136203f60a62cbda607afdcb51.png";
+const imgChatBackground = "/assets/347ebcbc0769d19e13ff2e7e68a1dcc26a17378f.png";
+const imgChatMessages = "/assets/f57cbb4a1a809fb2f1f6d8dbbeb8bd24d9813e93.png";
+const img633B16170A5347E73Cee467EHomeExperienceVideoTextSvg = "/assets/7581bbe3dc16752c06b5aa52e93bc4296d4a9847.svg";
+const imgFrameArrow = "/assets/2d65e05f4251af4897de5ec241e0ec1e67f4ca53.svg";
 
 // Image assets from Figma - Testimonial Section
-const imgTestimonialPhone = "http://localhost:3845/assets/f3887e3631cb951ba5c38507545da6974533ce27.png";
+const imgTestimonialPhone = "/assets/f3887e3631cb951ba5c38507545da6974533ce27.png";
 
 // Image assets from Figma - Company Logos
-const img633B16170A5347Fea7Ee4662AdobePng = "http://localhost:3845/assets/ac32134b2fcf763bcb02e84b89be67c9e5ee2951.png";
-const img633B16170A53474C02Ee4669SquarePng = "http://localhost:3845/assets/43ec4d0af7659cb3c8c52db59a0177717f5372a3.png";
-const img633B16170A5347C7E5Ee466FNba20LogoPng = "http://localhost:3845/assets/eead225ad2f48d458ee130b3e3f249e598a8cb48.png";
-const img633B16170A53479Fc7Ee4665CheckrPng = "http://localhost:3845/assets/20c3ad6fe2ceb8cabb3b66be79af7c03fe052c90.png";
-const img633B16170A534769Beee466ATwilioPng = "http://localhost:3845/assets/7870a4c99b26a09fe543bd077cff3a7ea83ad3bb.png";
-const img633B16170A53475028Ee4666BroadcomPng = "http://localhost:3845/assets/92787d80f69c56028c110a2d700bd3beea0e15a3.png";
-const img633B16170A5347640Cee4670SendosoPng = "http://localhost:3845/assets/009b42d4652d822b11552a57efab2ef127b56f65.png";
-const img633B16170A53479730Ee4671ZendeskPng = "http://localhost:3845/assets/76b51b2a07e895312d59a223e325ebc84023936f.png";
-const imgFrameCheck = "http://localhost:3845/assets/47d985a0c5a2d35503fd333932ab07ef547e57d7.svg";
-const img1PasswordLogo = "http://localhost:3845/assets/f502fec3849dbe956bede75e65aec20377379c93.svg";
-const img6345C6116B42A588D7F8Ba68MotiveSvg = "http://localhost:3845/assets/156dbee19c66a4e21777d397a279f23655b93450.svg";
-const imgBrexLogo = "http://localhost:3845/assets/1045a3d1fbbb3863c283e90464169c3dac04ac86.svg";
-const imgUnivisionLogo = "http://localhost:3845/assets/4db2ef156c166773ff50ea21baa978794ece4bbf.svg";
+const img633B16170A5347Fea7Ee4662AdobePng = "/assets/ac32134b2fcf763bcb02e84b89be67c9e5ee2951.png";
+const img633B16170A53474C02Ee4669SquarePng = "/assets/43ec4d0af7659cb3c8c52db59a0177717f5372a3.png";
+const img633B16170A5347C7E5Ee466FNba20LogoPng = "/assets/eead225ad2f48d458ee130b3e3f249e598a8cb48.png";
+const img633B16170A53479Fc7Ee4665CheckrPng = "/assets/20c3ad6fe2ceb8cabb3b66be79af7c03fe052c90.png";
+const img633B16170A534769Beee466ATwilioPng = "/assets/7870a4c99b26a09fe543bd077cff3a7ea83ad3bb.png";
+const img633B16170A53475028Ee4666BroadcomPng = "/assets/92787d80f69c56028c110a2d700bd3beea0e15a3.png";
+const img633B16170A5347640Cee4670SendosoPng = "/assets/009b42d4652d822b11552a57efab2ef127b56f65.png";
+const img633B16170A53479730Ee4671ZendeskPng = "/assets/76b51b2a07e895312d59a223e325ebc84023936f.png";
+const imgFrameCheck = "/assets/47d985a0c5a2d35503fd333932ab07ef547e57d7.svg";
+const img1PasswordLogo = "/assets/f502fec3849dbe956bede75e65aec20377379c93.svg";
+const img6345C6116B42A588D7F8Ba68MotiveSvg = "/assets/156dbee19c66a4e21777d397a279f23655b93450.svg";
+const imgBrexLogo = "/assets/1045a3d1fbbb3863c283e90464169c3dac04ac86.svg";
+const imgUnivisionLogo = "/assets/4db2ef156c166773ff50ea21baa978794ece4bbf.svg";
 
 // Image assets from Figma - Welcome Studio Section
-const img633B16170A53477D62Ee4650HomePoweredImageDeleteP500Png = "http://localhost:3845/assets/59ffc4d905176715685a1bcd6382b68992634deb.png";
-const img633B16170A53476E77Ee464FHomePoweredAgendaJpg = "http://localhost:3845/assets/6cce8469a4df66008e029b5ab1785d2ba0a9b5fa.png";
-const img633B16170A53470651Ee468FHomePoweredAgendaHolderPng = "http://localhost:3845/assets/b2f190251e9b720cd129d14e9b14f13912695448.png";
-const img633B16170A53477052Ee46E9StudioImage1P800Webp = "http://localhost:3845/assets/3a2dc6155db8fe168e72a3a818e85f1c05d186aa.png";
-const img633B16170A534774A3Ee46EcStudioImage2P800Webp = "http://localhost:3845/assets/1ba039a3380adcb0df4a50daaa4a91103bd8aa0f.png";
-const img633D81Ddc165E244355B70A3GreenRoomJpg = "http://localhost:3845/assets/0fe47ac4ee9a477b73bca9c898a5bc0f18b0958e.png";
-const imgFrameStudio = "http://localhost:3845/assets/a92088c96d1239b7cebebaecdb141139a0279750.svg";
+const img633B16170A53477D62Ee4650HomePoweredImageDeleteP500Png = "/assets/59ffc4d905176715685a1bcd6382b68992634deb.png";
+const img633B16170A53476E77Ee464FHomePoweredAgendaJpg = "/assets/6cce8469a4df66008e029b5ab1785d2ba0a9b5fa.png";
+const img633B16170A53470651Ee468FHomePoweredAgendaHolderPng = "/assets/b2f190251e9b720cd129d14e9b14f13912695448.png";
+const img633B16170A53477052Ee46E9StudioImage1P800Webp = "/assets/3a2dc6155db8fe168e72a3a818e85f1c05d186aa.png";
+const img633B16170A534774A3Ee46EcStudioImage2P800Webp = "/assets/1ba039a3380adcb0df4a50daaa4a91103bd8aa0f.png";
+const img633D81Ddc165E244355B70A3GreenRoomJpg = "/assets/0fe47ac4ee9a477b73bca9c898a5bc0f18b0958e.png";
+const imgFrameStudio = "/assets/a92088c96d1239b7cebebaecdb141139a0279750.svg";
 
 // Image assets from Figma - Drive Revenue Section
-const imgDriveRevenueLaptop = "http://localhost:3845/assets/0af9e7773714100426c510950c248618fab211d8.png";
+const imgDriveRevenueLaptop = "/assets/0af9e7773714100426c510950c248618fab211d8.png";
 
 // Image assets from Figma - How it works Section
-const imgHowItWorksCreate = "http://localhost:3845/assets/e66ef56f0b767b50b8860584a5fa19bd69be614e.png";
-const imgHowItWorksEngage = "http://localhost:3845/assets/34d961d0ab311afc7564d03f49aed88b4a54a35f.png";
-const imgHowItWorksAnalyze = "http://localhost:3845/assets/818a5b0370e47250af5f3233218b98f9533f97ef.png";
-const imgFrameArrowCreate = "http://localhost:3845/assets/d9738b6ca866ac71cfcd31ade7808c46cd1d6dce.svg";
-const imgFrameArrowEngage = "http://localhost:3845/assets/a0ff41cb743270a2d4206685ef73a232172a4eec.svg";
-const imgFrameArrowAnalyze = "http://localhost:3845/assets/73ccebaeb9e42f094b960eb6d90a8e365ac6bb5d.svg";
+const imgHowItWorksCreate = "/assets/e66ef56f0b767b50b8860584a5fa19bd69be614e.png";
+const imgHowItWorksEngage = "/assets/34d961d0ab311afc7564d03f49aed88b4a54a35f.png";
+const imgHowItWorksAnalyze = "/assets/818a5b0370e47250af5f3233218b98f9533f97ef.png";
+const imgFrameArrowCreate = "/assets/d9738b6ca866ac71cfcd31ade7808c46cd1d6dce.svg";
+const imgFrameArrowEngage = "/assets/a0ff41cb743270a2d4206685ef73a232172a4eec.svg";
+const imgFrameArrowAnalyze = "/assets/73ccebaeb9e42f094b960eb6d90a8e365ac6bb5d.svg";
 
 // Image assets from Figma - Integrate your data Section
-const imgOfficeLogo = "http://localhost:3845/assets/87b2cf64572f3829d45c9cc2f7a44a3b21710d6c.png";
-const imgSalesforceLogoIntegrate = "http://localhost:3845/assets/126b54604033a0fcf131ab20a9864026a75b0609.png";
-const imgHubspotLogo = "http://localhost:3845/assets/5852b489d0f3e6cd77615eae1f0b57c7e16dbea4.png";
-const imgIntegrateIcon = "http://localhost:3845/assets/8930abde318770aab327f1516b0a5b492f05dd5d.png";
-const imgPardotLogo = "http://localhost:3845/assets/30e920510ecccd302de87c855e7fe211b767708d.svg";
+const imgOfficeLogo = "/assets/87b2cf64572f3829d45c9cc2f7a44a3b21710d6c.png";
+const imgSalesforceLogoIntegrate = "/assets/126b54604033a0fcf131ab20a9864026a75b0609.png";
+const imgHubspotLogo = "/assets/5852b489d0f3e6cd77615eae1f0b57c7e16dbea4.png";
+const imgIntegrateIcon = "/assets/8930abde318770aab327f1516b0a5b492f05dd5d.png";
+const imgPardotLogo = "/assets/30e920510ecccd302de87c855e7fe211b767708d.svg";
 
 // Image assets from Figma - Loved & trusted Section
-const imgLovedTrustedBackground = "http://localhost:3845/assets/066c9a7fb928e115984b2b0961956cfd60b696ce.png";
-const imgTestimonialAlli = "http://localhost:3845/assets/fb4aa4019fd2acc7eab31301cb5c14826ceb47ca.png";
-const imgSalesforceLogo = "http://localhost:3845/assets/126b54604033a0fcf131ab20a9864026a75b0609.png";
-const imgTestimonialTalisha = "http://localhost:3845/assets/241fbbe7c2283757027d69272808269e62235e84.png";
-const imgBitwiseLogo = "http://localhost:3845/assets/0420f54859d5b2992f93710274bc2a7d74d47461.svg";
-const imgTestimonialDribbble = "http://localhost:3845/assets/c2e0da721707a7474a1104be455d5b4da552446d.png";
-const imgDribbbleLogo = "http://localhost:3845/assets/7626807e4acfc2cadb19261b35ae07f8358de992.svg";
-const imgArrowLeft = "http://localhost:3845/assets/35db386de90b198147387cb6bed2ab2f1d19d538.svg";
-const imgArrowRight = "http://localhost:3845/assets/84225dec25851426905ee889a9e6c72ef8cc9f7e.svg";
+const imgLovedTrustedBackground = "/assets/066c9a7fb928e115984b2b0961956cfd60b696ce.png";
+const imgTestimonialAlli = "/assets/fb4aa4019fd2acc7eab31301cb5c14826ceb47ca.png";
+const imgSalesforceLogo = "/assets/126b54604033a0fcf131ab20a9864026a75b0609.png";
+const imgTestimonialTalisha = "/assets/241fbbe7c2283757027d69272808269e62235e84.png";
+const imgBitwiseLogo = "/assets/0420f54859d5b2992f93710274bc2a7d74d47461.svg";
+const imgTestimonialDribbble = "/assets/c2e0da721707a7474a1104be455d5b4da552446d.png";
+const imgDribbbleLogo = "/assets/7626807e4acfc2cadb19261b35ae07f8358de992.svg";
+const imgArrowLeft = "/assets/35db386de90b198147387cb6bed2ab2f1d19d538.svg";
+const imgArrowRight = "/assets/84225dec25851426905ee889a9e6c72ef8cc9f7e.svg";
 
 // Image assets from Figma - Recent articles Section
-const imgArticle1 = "http://localhost:3845/assets/e5b9a9e86c68341119e7a8c52009535ffcdbec23.png";
-const imgArticle2 = "http://localhost:3845/assets/eab4ca73e00eaf1fed966a1bcf6eb3d1bc836d2b.png";
-const imgArticle3 = "http://localhost:3845/assets/6794f47a3a0577e31e62de85f65805ff00fd0a6e.png";
+const imgArticle1 = "/assets/e5b9a9e86c68341119e7a8c52009535ffcdbec23.png";
+const imgArticle2 = "/assets/eab4ca73e00eaf1fed966a1bcf6eb3d1bc836d2b.png";
+const imgArticle3 = "/assets/6794f47a3a0577e31e62de85f65805ff00fd0a6e.png";
 
 // Image assets from Figma - Join us Section
 const imgJoinUsEvent = "http://localhost:3845/assets/190d8cc94709fe3c702d2ed3d772466909dc6682.png";

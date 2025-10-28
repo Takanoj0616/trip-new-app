@@ -1,16 +1,7 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '3845',
-        pathname: '/assets/**',
-      },
-    ],
-  },
-};
+// Using local static assets served from `public/assets`.
+// No remote image hosts are required.
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
